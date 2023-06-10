@@ -1,28 +1,16 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 int main()
 {
-    char a;
+    int a;
     cin>>a;
-    switch (a)
+    if (a%2==0)
     {
-    case 'a':
-        cout<<"Vowel"<<endl;
-        break;
-    case 'e':
-        cout<<"Vowel"<<endl;
-        break;
-    case 'i':
-        cout<<"Vowel"<<endl;
-        break;
-    case 'o':
-        cout<<"Vowel"<<endl;
-        break;
-    case 'u':
-        cout<<"Vowel"<<endl;
-        break;
-    default:
-        cout<<"Consonant"<<endl;
-        break;
+        cout<<"Even"<<endl;
     }
+    else
+    {
+        cout<<"Odd"<<endl;
+    }
+    return 0;
 }

@@ -1,21 +1,22 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
-int *fun()
+int *get_array()
 {
-    int *a = new int[5];
+    int *a=new int[5];
     for (int i = 0; i < 5; i++)
     {
-        cin >> a[i];
+        cin>>a[i];
     }
     return a;
 }
 int main()
 {
-    int *a = fun();
+    int n;
+    cin>>n;
+    int *a=get_array();
     for (int i = 0; i < 5; i++)
     {
-        cout << a[i] << " ";
+        cout<<a[i]<<" ";
     }
-    // delete[] a;
     return 0;
 }
